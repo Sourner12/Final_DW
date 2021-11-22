@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto</title>
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body  id="uno" class="imagenFondo">
+    <header>
+      <div class="navBg">
+        <nav class="navegacionPrincipal Contenedor">
+          <a href="../index.html">Inicio</a>
+          <a href="tratamientos.html">Tratamiento</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="nuestrahistoria.html">Nuestra historia</a>
+          <a href="contacto.html">Contactanos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="" class="contacto">
+        
+          <legend>Contactanos llenando todos los campos</legend>
+          <div>
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="juan" />
+          </div>
+
+          <div>
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="perez" />
+          </div>
+
+          <div>
+            <label>Correo</label>
+            <input
+              type="text"
+              name="correo"
+              placeholder="juanperez@gmail.com"
+            />
+          </div>
+
+          <div>
+            <label>Teléfono</label>
+            <input type="text" name="telefono" placeholder="2604556677" />
+          </div>
+
+          <p class="palabraGenero">Género</p>
+          <div class="genero">
+            <p>Hombre</p>
+            <input type="radio" name="sexo" value="hombre">
+          
+            <p>Mujer</p>
+            <input type="radio" name="sexo" value="mujer">
+          
+            <p>Otro</p>
+            <input type="radio" name="sexo" value="Otro">
+          </div>
+            <h3>Tratamientos</h3>
+            <select name="tratamientos">
+              <option value="extracciones">Extracciones</option>
+              <option value="blanquiamientos">Blanqueamientos</option>
+              <option value="brackets">Brackets</option>
+              <option value="protesis">Prótesis</option>
+              <option value="tratamiento periodontal">
+                Tratamiento periodontal
+              </option>
+            </select>
+            <br />
+            <br />
+            <label>Mensaje</label> <br /><textarea
+              name="mensaje"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+
+          </div>
+
+          <input type="submit" name="enviar" value="enviar" id="botonUno" />
+          <input type="reset" value="limpiar formulario" id="botonDos"/>
+        
+      </form>
+        
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+
+  #uno {
+    /* fondo contactos */
+    background-image: linear-gradient(315deg, #f807fc42 0%, #05d5d96c 74%);
+  }
+  
+  .tituloContacto {
+    text-align: center;
+    text-decoration: underline;
+    color: #0097a7;
+  }
+  
+  .palabraGenero {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+  
+  .tituloContacto {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .contacto {
+    font-weight: bold;
+    width: var(--ancho);
+    margin: auto;
+    background-color: rgba(15, 12, 12, 0.575);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  
+  form {
+    color: white;
+  }
+  legend {
+    text-align: center;
+    margin: 0;
+    color: rgba(240, 235, 235, 0.959);
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+  }
+  
+  textarea {
+    /*  */
+    min-height: 100px;
+    max-height: 400px;
+    max-width: 100%;
+  }
+  
+  #botonUno {
+    /* ENVIAR */
+    text-transform: uppercase;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
+    padding: 10px;
+  }
+  #botonUno:hover {
+    cursor: pointer;
+  }
+  
+  #botonDos {
+    /* LIMPIAR FORMULARIO */
+    text-transform: uppercase;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
+    padding: 10px;
+  }
+  #botonDos:hover {
+    cursor: pointer;
+  }
+  
+  .genero {
+    display: flex;
+  }
