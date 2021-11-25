@@ -75,11 +75,18 @@ body {
 
   a img {
     width: 100%;
+    height: 50vh;
+  
   }
   .modal:target {
     width: auto;
-    height: 50%;
+    height: 100%;
+      img {
+        height: 70%;
+        margin-top: 60px;
+      }
   }
+
   .contenedor{
     width: auto;
     height: auto;
@@ -88,6 +95,9 @@ body {
     width: 100%;
     height: 50%;
   }
-  
+  .imagenGaleria{
+    width: 100%;
+    height: 50%;
+  }
 }
 /* MEDIAS QUERY -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
