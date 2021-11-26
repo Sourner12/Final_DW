@@ -38,19 +38,22 @@
   position: relative;
   margin-bottom: 50px; }
 
+.card.inicial {
+  background-color: rgba(207, 120, 120, 0.753); }
+
 .contenedor__cards {
   margin: 70px 0; }
 
 .card__miniatura {
   width: 100vw;
   height: 200px;
-  margin-right: 20px;
-  border-radius: 10px;
-  overflow: hidden;
-  display: inline-block; }
+  margin-right: 10px;
+  overflow: hidden; }
 
 .card__img {
-  width: 100%; }
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px; }
 
 .frase {
   text-align: center;
@@ -504,13 +507,17 @@ body {
   .contenedor {
     width: auto;
     height: auto; }
-  .card_img {
-    width: 100%;
-    height: 50%; }
   .imagenGaleria {
     width: 100%;
     height: 50%; }
   .card {
-    margin: 5px; } }
+    display: block;
+    padding: 15px; }
+  .card__img {
+    width: 90%;
+    height: auto;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 17px; } }
 
 /* MEDIAS QUERY -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

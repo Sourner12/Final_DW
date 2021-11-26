@@ -28,7 +28,9 @@
 	position: relative;
 	margin-bottom: 50px;
 }
-
+.card.inicial{
+	background-color: rgba(207, 120, 120, 0.753);
+}
 
 .contenedor__cards{
 	margin: 70px 0	;
@@ -37,15 +39,15 @@
 .card__miniatura{
 	width: 100vw;
 	height: 200px;
-	margin-right: 20px;
-	border-radius: 10px;
+	margin-right: 10px;
 	overflow: hidden;
-	display: inline-block;
+	
 }
 
 .card__img{
-	width: 100%;
-	
+	max-width: 100%;
+  height: auto;
+  border-radius: 50px;
 }
 .frase{//anidamiento
 	text-align: center;
