@@ -4,7 +4,7 @@
   
   .contenedorHistoria {
     justify-content: center;
-    margin: 50px;
+    margin: 25px;
     text-decoration: underline;
     max-width: 100%;
     height: 40px;
@@ -12,7 +12,37 @@
     line-height: 40px;
     display: flex;
     overflow: hidden;
-  }
+}
+
+
+  .aside{
+    max-width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.fotoAside{
+  border-radius: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+.historieta{
+    margin-top: 10px;
+}
+.cirulitos{
+    
+    display: flex;
+    border-radius: 10%;
+}
+
+.gridTres{
+    display: flex;
+    height: fit-content;
+    gap: 20px;
+    place-content: center;
+    margin-bottom: 5px;
+}
   
   .historiaUl {
     list-style: none;
