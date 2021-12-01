@@ -15,6 +15,7 @@
     width: 120px;
     height: 90px;
     border-radius: 10px;
+    
   }
   
   .titulo {
@@ -22,6 +23,7 @@
     color: var(--oscuro);
     background-color: var(--blanco);
     padding: 1rem 0 1rem 0;
+    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
   } /* titulo principal */
   
   .Contenedor {
@@ -37,7 +39,10 @@
     /* direccion del menu  flex-direction: row ; */
     flex-direction: column;
   }
-  
+  .videito{
+    width: 600px;
+   height: 405px;
+  }
   .navegacionPrincipal a {
     display: block;
     text-align: center;
@@ -54,9 +59,7 @@
     color: var(--blanco);
     border-radius: 15px;
   }
-  .logoCreo {
-    text-align: center;
-  }
+  
   
   .carousel-inner .d-block {
     width: auto;

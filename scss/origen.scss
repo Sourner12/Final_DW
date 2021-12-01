@@ -59,10 +59,11 @@ body {
   .redes {
     display: flex;
   }
-  .video,
+  
   .mapa,
   .imagenProfesional {
     width: auto;
+    height: auto;
   }
   .contenedorHistoria {
     width: auto;
@@ -118,7 +119,9 @@ body {
 .cirulitos{
     gap: 10px   ;
 }
-  
+.videito{
+  width: fit-content;
+}
   
 }
 /* MEDIAS QUERY -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
