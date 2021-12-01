@@ -336,7 +336,8 @@ textarea {
 
 .cirulitos {
   display: flex;
-  border-radius: 10%; }
+  border-radius: 10%;
+  object-fit: cover; }
 
 .gridTres {
   display: flex;
