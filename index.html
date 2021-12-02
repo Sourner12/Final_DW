@@ -64,34 +64,43 @@
   
       <section>
         
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="img/abanico.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="img/paciente.jpg" class="d-block w-100 img-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Profilaxis dental</h2>
+                <p>La placa dental si permanece en boca, sin ser eliminada, esta se endurece y forma lo que se conoce como el sarro</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="img/cheerful-beautiful-young-woman-with-blonde-hair-and-braces-on-teeth-laughing-and-touching-her-face.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="img/pacientedos.jpg" class="d-block w-100 img-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Discromías dentarias</h2>
+                <p> Consiste fundamentalmente en la realización de limpiezas o tartrectomías con pulidos</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img
-                src="img/imagen-fondo-tratamiento.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="img/pacientetres.jpg" class="d-block w-100 img-carrusel" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
 
@@ -116,11 +125,10 @@
             alt=""
             class="imagenProfesional"
           />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Minus accusamus accusantium voluptatem qui vero impedit <br />
-            magnam rem modi ex, iste labore commodi at provident, optio <br />
-            cupiditate delectus! Tempora, minus illo!
+          <p class="pProfesional">
+            Hola, soy Juan Pablo Cattai. <br> Profesional responsable, a cargo de la salud bucal de mis pacientes,
+            con mas de 20 años de experiencia solucionando los problemas dentales 
+            trabajando siempre con profesionalismo y responsabilidad <br> para que el paciente siempre este a gusto
           </p>
         </div>
 
@@ -208,5 +216,7 @@
         <path d="M16 16v-3a2 2 0 0 0 -4 0 " />
       </svg>
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
