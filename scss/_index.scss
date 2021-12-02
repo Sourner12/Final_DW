@@ -1,11 +1,8 @@
 
-  .main {
-    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
-  }
+  
   
   .logo {
     text-align: center;
-    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
   }
   .cuerpo{
     color: vla;
@@ -20,10 +17,7 @@
   
   .titulo {
     text-align: center;
-    color: var(--oscuro);
-    background-color: var(--blanco);
     padding: 1rem 0 1rem 0;
-    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
   } /* titulo principal */
   
   .Contenedor {
@@ -31,8 +25,8 @@
     margin: 0 auto;
   }
   
-  .navBg {
-    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+  .logoMenu {    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+
   }
   .navegacionPrincipal {
     display: flex;
