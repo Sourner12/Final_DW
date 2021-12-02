@@ -559,10 +559,14 @@ body {
     overflow: hidden;
     margin-left: 17px; }
   .gridTres {
-    display: block;
-    padding: 10px; }
-  .cirulitos {
-    gap: 10px; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .circulitos {
+    align-items: center; }
+  .lgCreo {
+    max-width: 100%; }
   .videito {
     width: fit-content; } }
 
