@@ -57,8 +57,10 @@ body {
   .alineados {
     display: block;
   }
-  .redes {
-    display: flex;
+  
+  svg{
+    width: 45px;
+    height: 45px;
   }
   
   .mapa,

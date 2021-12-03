@@ -316,7 +316,7 @@ ul.mostrar {
 
 /* titulo principal */
 .videito {
-  width: 600px;
+  width: 400px;
   height: 405px; }
 
 .slide {
@@ -605,8 +605,9 @@ body {
     width: 100%; }
   .alineados {
     display: block; }
-  .redes {
-    display: flex; }
+  svg {
+    width: 45px;
+    height: 45px; }
   .mapa,
   .imagenProfesional {
     width: auto;
