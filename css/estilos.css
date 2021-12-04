@@ -834,7 +834,8 @@ body {
     font-size: 25px;
     padding-left: 35px; }
   .nav-logo {
-    height: 75px; }
+    height: 75px;
+    margin-bottom: 10px; }
   .menu {
     height: 95px; } }
 
